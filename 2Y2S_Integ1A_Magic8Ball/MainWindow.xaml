@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2Y2S_Integ1A_Magic8Ball.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2Y2S_Integ1A_Magic8Ball"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="322" Width="842">
+    <Grid>
+        <Label x:Name="lblMessage" Content="Label" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" FontSize="32" Width="780" Height="164" HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"/>
+        <Button x:Name="btnRoll" Content="Roll" Margin="10,223,0,0" VerticalAlignment="Top" FontSize="32" HorizontalAlignment="Left" Width="780" Click="btnRoll_Click"/>
+
+    </Grid>
+</Window>
